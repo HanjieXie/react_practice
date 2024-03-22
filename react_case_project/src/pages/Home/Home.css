@@ -1,0 +1,34 @@
+.items_option {
+  width: 200px;
+  height: 50px;
+  background-color: #afafaf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items_option_selected {
+  width: 200px;
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.panel_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+}
+.select_container {
+  display: flex;
+  flex-direction: column;
+}
+/* 展示面板主容器样式 */
+.items_layerout {
+}
+/* 选项板样式 */
+.select_option {
+  display: flex;
+}
